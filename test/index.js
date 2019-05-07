@@ -2,7 +2,7 @@
  * Created by Sandon on 2019-05-06.
  */
 const path = require('path')
-const {compileTheme} = require('../index.js')
+const {compileTheme} = require('../index.backup.js')
 
 compileTheme({
   repository: 'git@code.aliyun.com:sunyur_fe_code/fe-common.git',

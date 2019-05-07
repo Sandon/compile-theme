@@ -2,9 +2,10 @@
   "name": "compile-theme",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.backup.js",
   "scripts": {
-    "test": "node test/index.js"
+    "build": "./node_modules/.bin/tsc index.ts",
+    "test": "npm run build & node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
   },
   "homepage": "https://github.com/Sandon/compile-theme#readme",
   "dependencies": {
+    "@types/node": "^12.0.0",
     "node-sass": "^4.12.0",
     "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
   }
 }
