@@ -2,4 +2,4 @@
 test/
 node_modules/
 node_modules/**
-**.backup.**
+index.backup.js
