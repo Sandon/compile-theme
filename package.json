@@ -1,0 +1,27 @@
+{
+  "name": "compile-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandon/compile-theme.git"
+  },
+  "keywords": [
+    "compile",
+    "theme"
+  ],
+  "author": "Sandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandon/compile-theme/issues"
+  },
+  "homepage": "https://github.com/Sandon/compile-theme#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "shelljs": "^0.8.3"
+  }
+}
